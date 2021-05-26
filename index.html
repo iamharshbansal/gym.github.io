@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+	<title>Gym</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+			/*background-image: url("images/gym photo.jfif");*/
+			/*background-image: url("images/rock.jpg");*/
+			background-image: url("https://i.pinimg.com/originals/c9/2b/9e/c92b9ec0771b9fb8f13d29861ffadefc.jpg");
+			background-repeat: no-repeat;
+			background-size: 1550px 800px;
+			color: white;
+			font-family: 'Lobster', cursive;
+		}
+		.left{
+			position: absolute;
+			left: 60px;
+			top: 20px;
+			/*border: 2px solid red;*/
+			display: inline-block;
+		}
+		.left img{		
+			width: 170px;
+			filter: invert(100%);
+		}
+		.left div{
+			font-family: 'Lobster', cursive;
+			font-size: 20px;
+			text-align: center;
+			line-height: 0px;
+		}
+		
+		.mid{
+			display: block;
+			width: 45%;
+			margin: 20px auto;
+
+			/*border: 2px solid blue;*/
+		}
+		.right{
+			position: absolute;
+			right: 34px;
+			top: 20px;
+			/*border: 2px solid green;*/
+			display: inline-block;
+		}
+		.navbar{
+			display: inline-block;
+		}
+		.navbar li{
+			display: inline-block;
+			font-size: 25px;
+		}
+		.navbar li a{
+			color: white;
+			text-decoration: none;
+			padding: 34px 23px;
+		}
+		.navbar li a:hover, .navbar li a.active{
+			text-decoration: underline;
+			color: #f60d2d;
+			
+		}
+		.btn{
+			margin: 0px 9px;
+			color: white;
+			background-color: black;
+			padding: 4px 14px;
+			border: 2px solid orange;
+			border-radius: 10px;
+			font-size: 15px;
+			cursor: pointer;
+			font-family: 'Lobster', cursive;
+		}
+		.btn:hover{
+			background-color: green;
+		}
+		.container{
+			border: 2px solid white;
+			margin: 106px 80px;
+			padding: 20px;
+			width: 350px;
+			border-radius: 28px;
+		}
+		.form-group input{
+			text-align: center;
+			display: block;
+			width: 300px;
+			padding: 1px;
+			border: 2px solid black;
+			margin: 11px auto;
+			border-radius: 10px;
+			font-size: 25px;
+			font-family: 'Lobster', cursive;
+		}
+		.container h1{
+			text-align: center;
+		}
+		.container button{
+			display: block;
+			margin: 2px auto;
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<!-- left box for logo -->
+		<div class="left">
+			<!-- <img src="images/my.jfif" > -->
+			<img src="https://i.pinimg.com/originals/6e/94/69/6e94695575a2c897135f7cc0b86800eb.png">
+			<div>Harsh's Fitness Center</div>
+		</div>
+		<!-- middle box for navigation bar -->
+		<div class="mid">
+				<ul class="navbar">
+				<li><a href="" class="active">Home</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Fitness Calculator</a></li>
+				<li><a href="">Contact Us</a></li>
+			
+			</ul>
+		</div>
+		<!-- right box for buttons -->
+		<div class="right">
+			<button class="btn">Call Us</button>
+			<button class="btn">Email</button>
+		</div>
+	</header>
+
+<div class="container">
+	<h1>Join the best gym of Delhi now.</h1>
+	<form action="noaction.php" >
+		<div class="form-group">
+			<input type="text" name="" placeholder="Enter Your Name">
+		</div>
+		<div class="form-group">
+			<input type="text" name="" placeholder="Enter Your Age">
+		</div>
+		<div class="form-group">
+			<input type="text" name="" placeholder="Enter Your Phone Number ">
+		</div>
+		<div class="form-group">
+			<input type="text" name="" placeholder="Enter Your Address ">
+		</div>
+		<button class="btn">Submit</button>
+	</form>
+</div>
+
+</body>
+</html>    
